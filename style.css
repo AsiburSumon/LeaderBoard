@@ -29,6 +29,7 @@ main{
     width: 870px;
     border-radius: 5px;
     background-color: #ffffff;
+    margin-bottom: 10px;
  }
 
 /*----------------- 
@@ -106,9 +107,65 @@ hr{
         Top Blog Styles End
                     ----------------------*/
 
-/*-------------
-          Style Section-2  
-            ---------------------*/
+/* ---------
+        Section Style-2
+            ----------- */
+.container-2{
+    width: 870px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
 
-
-
+/*----------
+            Latest Courses Style  
+                    ---------------------*/
+.course-element{
+    margin-left: 30px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-title{
+    font-size: 20.03px;
+    font-family: 'Roboto', sans-serif;
+    color: #1E1E1E;
+}
+.course-author{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ED6B4F;
+}
+.course-info{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+    opacity: 30%;
+}
+.course-duration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    color: red;
+    font-size: 17px;
+    background-color: #FFE4E8;
+    border-radius: 15px;
+}
