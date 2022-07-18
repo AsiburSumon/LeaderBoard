@@ -4,8 +4,58 @@
 
 }
 /*---------
-All Section
+    All Section
 --------------- */
 body{
-    font: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------
+        Section Style 
+            ----------------*/
+.container{
+    width: 870px;
+    border-radius: 5px;
+    background-color: #ffffff;
+ }
+
+/*----------------- 
+    Top Players Styles
+-------------------------- */
+.top-players{
+    margin-left: 30px;
+}
+.section-title{
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: 33px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 29px;
+    margin: 40px 0 40px 0px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    font-size: 18px;
+    margin-left: 16px;
+}
+hr{ 
+    width: 807px;
+    border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
 }
