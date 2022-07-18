@@ -10,12 +10,6 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .section-title{
     font-size: 24px;
     color: #562EFF;
@@ -25,12 +19,57 @@ main{
 /*--------------
         Section Style-1
             ----------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     width: 870px;
     border-radius: 5px;
     background-color: #ffffff;
     margin-bottom: 10px;
  }
+
+/* Navbar Style Start */
+nav{
+    width: 100%;
+    background-color: #562EFF;
+    padding: 10px;
+    margin-bottom: 64px;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 870px;
+    margin-left: 20%;
+}
+.idea{
+    font-size: 24px;
+    color: #ffffff;
+}
+.fa-lightbulb{
+    font-size: 40px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-item a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+    margin-left: 36px;
+}
+.menu-img img{
+    margin-left: 36px;
+}
+
+/* Navbar Style End */
 
 /*----------------- 
     Top Players Styles
